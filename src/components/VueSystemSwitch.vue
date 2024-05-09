@@ -74,7 +74,7 @@ const transitionName = computed(() => {
   height: 32px;
 
   background: $primary_white_color;
-  border-radius: 8px;
+  border-radius: 4px; 
   transition: 0.2s;
 
   &.move-left {
