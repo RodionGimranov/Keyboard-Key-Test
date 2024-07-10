@@ -1,15 +1,17 @@
 <template>
-  <main class="main_container">
-    <h1 class="main_title">Check the keyboard operation</h1>
-    <h2 class="subtitle">Choose your system</h2>
-    <VueColorDropdown />
-    <VueSystemSwitch />
-  </main>
+    <main class="main_container">
+        <h1 class="main_title">Check the keyboard operation</h1>
+        <h2 class="subtitle">Choose your system</h2>
+        <VueColorDropdown />
+        <VueSystemSwitch />
+        <screenSizeWarning />
+    </main>
 </template>
 
 <script setup>
 import VueSystemSwitch from "./components/VueSystemSwitch.vue";
 import VueColorDropdown from "./components/VueColorDropdown.vue";
+import screenSizeWarning from "./components/screenSizeWarning.vue";
 </script>
 
 <style lang="scss">
@@ -17,50 +19,50 @@ import VueColorDropdown from "./components/VueColorDropdown.vue";
 @import "./styles/variables.scss";
 
 * {
-  margin: 0;
-  box-sizing: border-box;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 body {
-  min-width: 1340px;
-  height: 100dvh;
+    min-width: 1340px;
+    height: 100dvh;
 
-  padding: 40px 20px;
-  background: $primary_white_color;
-  overflow: hidden;
+    padding: 40px 20px;
+    background: $primary_white_color;
+    overflow: hidden;
 
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
 }
 
 .main_container {
-  position: relative;
+    position: relative;
 
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .main_title {
-  margin-bottom: 15px;
+    margin-bottom: 15px;
 
-  font-size: 26px;
-  font-weight: 500;
-  color: $primary_black_color;
+    font-size: 26px;
+    font-weight: 500;
+    color: $primary_black_color;
 }
 
 .subtitle {
-  margin-bottom: 15px;
+    margin-bottom: 15px;
 
-  font-size: 22px;
-  font-weight: 500;
-  color: $primary_black_color;
+    font-size: 22px;
+    font-weight: 500;
+    color: $primary_black_color;
 }
 </style>
