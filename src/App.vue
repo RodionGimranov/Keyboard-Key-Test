@@ -2,15 +2,15 @@
     <main class="main_container">
         <h1 class="main_title">Check the keyboard operation</h1>
         <h2 class="subtitle">Choose your system</h2>
-        <VueColorDropdown />
-        <VueSystemSwitch />
+        <colorDropdown />
+        <systemSwitch />
         <screenSizeWarning />
     </main>
 </template>
 
 <script setup>
-import VueSystemSwitch from "./components/VueSystemSwitch.vue";
-import VueColorDropdown from "./components/VueColorDropdown.vue";
+import systemSwitch from "./components/systemSwitch.vue";
+import colorDropdown from "./components/colorDropdown.vue";
 import screenSizeWarning from "./components/screenSizeWarning.vue";
 </script>
 
@@ -43,7 +43,6 @@ body {
 
 .main_container {
     position: relative;
-
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -52,7 +51,6 @@ body {
 
 .main_title {
     margin-bottom: 15px;
-
     font-size: 26px;
     font-weight: 500;
     color: $primary_black_color;
@@ -60,7 +58,6 @@ body {
 
 .subtitle {
     margin-bottom: 15px;
-
     font-size: 22px;
     font-weight: 500;
     color: $primary_black_color;
