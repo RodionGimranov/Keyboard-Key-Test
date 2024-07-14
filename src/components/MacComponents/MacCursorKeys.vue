@@ -84,7 +84,6 @@ useKeyWrapper();
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
   margin-top: 64px;
 }
 
@@ -105,7 +104,6 @@ useKeyWrapper();
 .MacEnd,
 .MacPageDown {
   font-size: 14px;
-
   padding: 0px;
 
   display: flex;
@@ -123,13 +121,11 @@ useKeyWrapper();
   justify-content: flex-end;
   align-items: center;
   gap: 2px;
-
   padding: 10px 6px 6px 6px;
 }
 
 .mac_fn_key {
   width: 100%;
-
   font-size: 12px;
 
   display: flex;

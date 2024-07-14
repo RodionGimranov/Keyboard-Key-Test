@@ -128,7 +128,6 @@ useKeyWrapper();
 
   color: $primary_black_color;
   text-align: center;
-
   font-weight: 400;
 
   display: flex;
@@ -138,7 +137,6 @@ useKeyWrapper();
 
 .MacEscape {
   width: 107px;
-
   border-top-left-radius: 24px;
   padding: 0px 0px 6px 12px;
 

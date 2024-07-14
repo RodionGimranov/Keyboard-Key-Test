@@ -138,7 +138,6 @@ useKeyWrapper();
 
 .MacDigitKey {
   padding: 0px;
-
   font-size: 16px;
 
   display: flex;
@@ -149,7 +148,6 @@ useKeyWrapper();
 .MacBackspace {
   width: 107px;
   padding: 0px 12px 6px 0px;
-
   font-size: 14px;
 
   display: flex;
@@ -169,7 +167,6 @@ useKeyWrapper();
 .MacBracketRight,
 .MacBackslash {
   font-size: 16px;
-
   padding: 0px;
 }
 
@@ -183,9 +180,7 @@ useKeyWrapper();
 .MacShiftRight,
 .MacTab {
   width: 113px;
-
   padding: 0px 0px 6px 12px;
-
   font-size: 14px;
 
   display: flex;
@@ -199,7 +194,6 @@ useKeyWrapper();
 
 .MacCapsLock {
   padding: 10px 0px 6px 12px;
-
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -216,9 +210,7 @@ useKeyWrapper();
 
 .MacShiftRight {
   width: 143px;
-
   padding: 0px 12px 6px 0px;
-
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
@@ -241,9 +233,7 @@ useKeyWrapper();
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-end;
-
   padding: 10px 12px 6px 0px;
-
   font-size: 14px;
 }
 
@@ -267,9 +257,7 @@ useKeyWrapper();
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-
   padding: 10px 0px 6px 12px;
-
   font-size: 14px;
 }
 

@@ -92,7 +92,6 @@ useKeyWrapper();
 
 .MacNumpadEnter {
   height: 114px;
-
   padding: 0px 10px 6px 0px;
   border-bottom-right-radius: 24px;
 

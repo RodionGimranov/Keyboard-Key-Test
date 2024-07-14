@@ -14,7 +14,6 @@
 
 .gh_btn_cotainer {
     width: 224px;
-
     display: flex;
     justify-content: flex-end;
 }
